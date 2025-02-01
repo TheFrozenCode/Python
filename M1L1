@@ -9,10 +9,9 @@ meme_dict = {
             'АГРИТЬСЯ': 'злиться',
             }
 while True:
-    
-  word = input("Введите непонятное слово (большими буквами!): ")
+            word = input("Введите непонятное слово (большими буквами!): ")
 
-  if word in meme_dict.keys():
-      print("Значение слова", word, ":", meme_dict[word])
-  else:
-      rint("Такого слова нет")
+            if word in meme_dict.keys():
+                        print("Значение слова", word, ":", meme_dict[word])
+            else:
+                        print("Такого слова нет")
